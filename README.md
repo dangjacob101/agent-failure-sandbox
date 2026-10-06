@@ -4,6 +4,44 @@ A small, local experiment in predicting whether an LLM agent will fail before
 its task ends. The eventual research goal is prediction on **100+ turn tasks**;
 the experiment here tests the pipeline on a **two-action MiniWoB++ task**.
 
+## Failure prediction and linear probes
+
+**Failure prediction is the goal; a linear probe is the small classifier used
+to read a possible failure signal from the model's hidden activations.** Here,
+we sample possible continuations and use conformal calibration to label
+intermediate states. Those labels train the probes; uncertain states are excluded.
+
+An alternative would train a probe directly on each run's eventual outcome;
+that alternative has not been evaluated here. We use real outcomes to form
+calibration groups and, separately, test whether our probe warnings precede
+actual failures. The [earlier monitor](docs/episode_monitor.md) used conformal
+predictions directly, without linear probes.
+
+## Run the experiment
+
+Install Python 3.12, [uv](https://docs.astral.sh/uv/), and Google Chrome/Chromium.
+Then run:
+
+```bash
+git clone https://github.com/dangjacob101/agent-failure-sandbox.git
+cd agent-failure-sandbox
+uv sync --frozen --extra hf --extra miniwob --extra probes
+export HF_HOME="$PWD/.cache/huggingface"
+.venv/bin/python -m early_failure --pipeline paper \
+  --config configs/miniwob_paper.json \
+  --probe-config configs/miniwob_paper_probes.json \
+  --output-dir runs/paper_rerun
+```
+
+This runs calibration, probe training, and held-out evaluation. The preset uses
+an Apple GPU (MPS); for other hardware, edit `device` and `dtype` in a copied
+config (`cuda` for NVIDIA, or `cpu` with `float32`). The first run downloads model
+weights. Our main run took about 79 minutes locally. Choose a new output directory
+for each rerun. To check the saved results without rerunning the experiment, see
+[Reproduce or inspect locally](#reproduce-or-inspect-locally).
+
+## Paper and reference implementation
+
 This implements the continuation scoring, conformal state labeling, and linear
 probing sequence from [*From Actions to Understanding*](https://arxiv.org/abs/2604.19775),
 Sections 4.1–4.3. The Qwen model family and MiniWoB DOM/action interface were
@@ -192,24 +230,11 @@ It does not regenerate activations. CI runs these checks without downloading
 model weights. Omit `--workspace` to also require the current `src/` files to
 match the historical run.
 
-To collect another real experiment, install Chrome/Chromium and the model/browser
-dependencies:
-
-```bash
-uv sync --frozen --extra hf --extra miniwob --extra probes
-export HF_HOME="$PWD/.cache/huggingface"
-.venv/bin/python -m early_failure --pipeline paper \
-  --config configs/miniwob_paper.json \
-  --probe-config configs/miniwob_paper_probes.json \
-  --output-dir runs/paper_rerun
-```
-
-The supplied configuration reproduces the Apple MPS setup. For other hardware,
-edit `device` and `dtype` in a copied JSON config (`cuda` for an NVIDIA GPU,
-or `cpu` with `float32`). Runtime and sampled outcomes may differ across hardware
-and library versions. The first model run downloads public weights; no paid API
-or Colab is required. New outputs go in ignored `runs/`; the curated `results/`
-directory is committed. Nonempty output directories are refused.
+To collect another real experiment, use [Run the experiment](#run-the-experiment)
+above. Runtime and sampled outcomes may differ across hardware and library
+versions. No paid API or Colab is required. New outputs go in ignored `runs/`;
+the curated `results/` directory is committed. Nonempty output directories
+are refused.
 
 For optional real-browser adapter tests after installing dependencies:
 
