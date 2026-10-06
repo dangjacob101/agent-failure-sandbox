@@ -1,0 +1,44 @@
+{
+  "development_only": true,
+  "monte_carlo_enabled": false,
+  "prompt_sha256": "168b20a862b93a407997912c950c90fc60b9bd72cd7724649067e96d14a4ad2a",
+  "elapsed_seconds": 271.60234495892655,
+  "by_environment": {
+    "miniwob/enter-text-v1": {
+      "episodes": 20,
+      "successes": 10,
+      "failures": 10,
+      "unique_initial_observations": 14,
+      "first_10_outcomes": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    "miniwob/click-button-v1": {
+      "episodes": 20,
+      "successes": 18,
+      "failures": 2,
+      "unique_initial_observations": 20,
+      "first_10_outcomes": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  }
+}

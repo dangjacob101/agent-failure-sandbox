@@ -1,0 +1,2077 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+calibration: miniwob/enter-text-v1 seed=50000
+calibration: miniwob/enter-text-v1 seed=50001
+calibration: miniwob/enter-text-v1 seed=50002
+calibration: miniwob/enter-text-v1 seed=50003
+calibration: miniwob/enter-text-v1 seed=50004
+calibration: miniwob/enter-text-v1 seed=50005
+calibration: miniwob/enter-text-v1 seed=50006
+calibration: miniwob/enter-text-v1 seed=50007
+calibration: miniwob/enter-text-v1 seed=50008
+calibration: miniwob/enter-text-v1 seed=50009
+calibration: miniwob/enter-text-v1 seed=50010
+calibration: miniwob/enter-text-v1 seed=50011
+calibration: miniwob/enter-text-v1 seed=50012
+calibration: miniwob/enter-text-v1 seed=50013
+calibration: miniwob/enter-text-v1 seed=50014
+calibration: miniwob/enter-text-v1 seed=50015
+calibration: miniwob/enter-text-v1 seed=50016
+calibration: miniwob/enter-text-v1 seed=50017
+calibration: miniwob/enter-text-v1 seed=50018
+calibration: miniwob/enter-text-v1 seed=50019
+calibration: miniwob/enter-text-v1 seed=50020
+calibration: miniwob/enter-text-v1 seed=50021
+calibration: miniwob/enter-text-v1 seed=50022
+calibration: miniwob/enter-text-v1 seed=50023
+calibration: miniwob/enter-text-v1 seed=50024
+calibration: miniwob/enter-text-v1 seed=50025
+calibration: miniwob/enter-text-v1 seed=50026
+calibration: miniwob/enter-text-v1 seed=50027
+calibration: miniwob/enter-text-v1 seed=50028
+calibration: miniwob/enter-text-v1 seed=50029
+calibration: miniwob/enter-text-v1 seed=50030
+calibration: miniwob/enter-text-v1 seed=50031
+calibration: miniwob/enter-text-v1 seed=50032
+calibration: miniwob/enter-text-v1 seed=50033
+calibration: miniwob/enter-text-v1 seed=50034
+calibration: miniwob/enter-text-v1 seed=50035
+calibration: miniwob/enter-text-v1 seed=50036
+calibration: miniwob/enter-text-v1 seed=50037
+calibration: miniwob/enter-text-v1 seed=50038
+calibration: miniwob/enter-text-v1 seed=50039
+calibration: miniwob/enter-text-v1 seed=50040
+calibration: miniwob/enter-text-v1 seed=50041
+calibration: miniwob/enter-text-v1 seed=50042
+calibration: miniwob/enter-text-v1 seed=50043
+calibration: miniwob/enter-text-v1 seed=50044
+calibration: miniwob/enter-text-v1 seed=50045
+calibration: miniwob/enter-text-v1 seed=50046
+calibration: miniwob/enter-text-v1 seed=50047
+calibration: miniwob/enter-text-v1 seed=50048
+calibration: miniwob/enter-text-v1 seed=50049
+calibration: miniwob/enter-text-v1 seed=50050
+calibration: miniwob/enter-text-v1 seed=50051
+calibration: miniwob/enter-text-v1 seed=50052
+calibration: miniwob/enter-text-v1 seed=50053
+calibration: miniwob/enter-text-v1 seed=50054
+calibration: miniwob/enter-text-v1 seed=50055
+calibration: miniwob/enter-text-v1 seed=50056
+calibration: miniwob/enter-text-v1 seed=50057
+calibration: miniwob/enter-text-v1 seed=50058
+calibration: miniwob/enter-text-v1 seed=50059
+calibration: miniwob/enter-text-v1 seed=50060
+calibration: miniwob/enter-text-v1 seed=50061
+calibration: miniwob/enter-text-v1 seed=50062
+calibration: miniwob/enter-text-v1 seed=50063
+calibration: miniwob/enter-text-v1 seed=50064
+calibration: miniwob/enter-text-v1 seed=50065
+calibration: miniwob/enter-text-v1 seed=50066
+calibration: miniwob/enter-text-v1 seed=50067
+calibration: miniwob/enter-text-v1 seed=50068
+calibration: miniwob/enter-text-v1 seed=50069
+calibration: miniwob/enter-text-v1 seed=50070
+calibration: miniwob/enter-text-v1 seed=50071
+calibration: miniwob/enter-text-v1 seed=50072
+calibration: miniwob/enter-text-v1 seed=50073
+calibration: miniwob/enter-text-v1 seed=50074
+calibration: miniwob/enter-text-v1 seed=50075
+calibration: miniwob/enter-text-v1 seed=50076
+calibration: miniwob/enter-text-v1 seed=50077
+calibration: miniwob/enter-text-v1 seed=50078
+calibration: miniwob/enter-text-v1 seed=50079
+training: miniwob/enter-text-v1 seed=60000
+training: miniwob/enter-text-v1 seed=60001
+training: miniwob/enter-text-v1 seed=60002
+training: miniwob/enter-text-v1 seed=60003
+training: miniwob/enter-text-v1 seed=60004
+training: miniwob/enter-text-v1 seed=60005
+training: miniwob/enter-text-v1 seed=60006
+training: miniwob/enter-text-v1 seed=60007
+training: miniwob/enter-text-v1 seed=60008
+training: miniwob/enter-text-v1 seed=60009
+training: miniwob/enter-text-v1 seed=60010
+training: miniwob/enter-text-v1 seed=60011
+training: miniwob/enter-text-v1 seed=60012
+training: miniwob/enter-text-v1 seed=60013
+training: miniwob/enter-text-v1 seed=60014
+training: miniwob/enter-text-v1 seed=60015
+training: miniwob/enter-text-v1 seed=60016
+training: miniwob/enter-text-v1 seed=60017
+training: miniwob/enter-text-v1 seed=60018
+training: miniwob/enter-text-v1 seed=60019
+training: miniwob/enter-text-v1 seed=60020
+training: miniwob/enter-text-v1 seed=60021
+training: miniwob/enter-text-v1 seed=60022
+training: miniwob/enter-text-v1 seed=60023
+training: miniwob/enter-text-v1 seed=60024
+training: miniwob/enter-text-v1 seed=60025
+training: miniwob/enter-text-v1 seed=60026
+training: miniwob/enter-text-v1 seed=60027
+training: miniwob/enter-text-v1 seed=60028
+training: miniwob/enter-text-v1 seed=60029
+training: miniwob/enter-text-v1 seed=60030
+training: miniwob/enter-text-v1 seed=60031
+training: miniwob/enter-text-v1 seed=60032
+training: miniwob/enter-text-v1 seed=60033
+training: miniwob/enter-text-v1 seed=60034
+training: miniwob/enter-text-v1 seed=60035
+training: miniwob/enter-text-v1 seed=60036
+training: miniwob/enter-text-v1 seed=60037
+training: miniwob/enter-text-v1 seed=60038
+training: miniwob/enter-text-v1 seed=60039
+evaluation: miniwob/enter-text-v1 seed=70000
+evaluation: miniwob/enter-text-v1 seed=70001
+evaluation: miniwob/enter-text-v1 seed=70002
+evaluation: miniwob/enter-text-v1 seed=70003
+evaluation: miniwob/enter-text-v1 seed=70004
+evaluation: miniwob/enter-text-v1 seed=70005
+evaluation: miniwob/enter-text-v1 seed=70006
+evaluation: miniwob/enter-text-v1 seed=70007
+evaluation: miniwob/enter-text-v1 seed=70008
+evaluation: miniwob/enter-text-v1 seed=70009
+evaluation: miniwob/enter-text-v1 seed=70010
+evaluation: miniwob/enter-text-v1 seed=70011
+evaluation: miniwob/enter-text-v1 seed=70012
+evaluation: miniwob/enter-text-v1 seed=70013
+evaluation: miniwob/enter-text-v1 seed=70014
+evaluation: miniwob/enter-text-v1 seed=70015
+evaluation: miniwob/enter-text-v1 seed=70016
+evaluation: miniwob/enter-text-v1 seed=70017
+evaluation: miniwob/enter-text-v1 seed=70018
+evaluation: miniwob/enter-text-v1 seed=70019
+evaluation: miniwob/enter-text-v1 seed=70020
+evaluation: miniwob/enter-text-v1 seed=70021
+evaluation: miniwob/enter-text-v1 seed=70022
+evaluation: miniwob/enter-text-v1 seed=70023
+evaluation: miniwob/enter-text-v1 seed=70024
+evaluation: miniwob/enter-text-v1 seed=70025
+evaluation: miniwob/enter-text-v1 seed=70026
+evaluation: miniwob/enter-text-v1 seed=70027
+evaluation: miniwob/enter-text-v1 seed=70028
+evaluation: miniwob/enter-text-v1 seed=70029
+evaluation: miniwob/enter-text-v1 seed=70030
+evaluation: miniwob/enter-text-v1 seed=70031
+evaluation: miniwob/enter-text-v1 seed=70032
+evaluation: miniwob/enter-text-v1 seed=70033
+evaluation: miniwob/enter-text-v1 seed=70034
+evaluation: miniwob/enter-text-v1 seed=70035
+evaluation: miniwob/enter-text-v1 seed=70036
+evaluation: miniwob/enter-text-v1 seed=70037
+evaluation: miniwob/enter-text-v1 seed=70038
+evaluation: miniwob/enter-text-v1 seed=70039
+{
+  "status": "complete",
+  "labeling_mode": "paper_equations",
+  "alpha": 0.1,
+  "outcomes": {
+    "calibration": {
+      "episodes": 80,
+      "success": 29,
+      "failure": 51
+    },
+    "training": {
+      "episodes": 40,
+      "success": 15,
+      "failure": 25
+    },
+    "evaluation": {
+      "episodes": 40,
+      "success": 15,
+      "failure": 25
+    }
+  },
+  "viable_steps": [
+    {
+      "env_id": "miniwob/enter-text-v1",
+      "step": 1
+    }
+  ],
+  "trained_probes": 4,
+  "training_labels": {
+    "all_states": {
+      "uncertain": 62,
+      "failure": 13,
+      "success": 4
+    },
+    "by_environment_step": {
+      "miniwob/enter-text-v1::step=0": {
+        "uncertain": 40
+      },
+      "miniwob/enter-text-v1::step=1": {
+        "failure": 13,
+        "uncertain": 22,
+        "success": 4
+      }
+    }
+  },
+  "evaluation_labels": {
+    "all_states": {
+      "uncertain": 58,
+      "failure": 18,
+      "success": 2
+    },
+    "by_environment_step": {
+      "miniwob/enter-text-v1::step=0": {
+        "uncertain": 40
+      },
+      "miniwob/enter-text-v1::step=1": {
+        "uncertain": 18,
+        "failure": 18,
+        "success": 2
+      }
+    }
+  },
+  "probe_evaluation": {
+    "n_records": 312,
+    "n_labeled": 80,
+    "n_predicted": 152,
+    "n_evaluated": 80,
+    "n_unsupported": 160,
+    "label_coverage": 0.2564102564102564,
+    "evaluation_coverage": 1.0,
+    "metrics": {
+      "n": 80,
+      "accuracy": 0.9625,
+      "f1_success": 0.8235294117647058,
+      "f1_failure": 0.9790209790209791,
+      "macro_f1": 0.9012751953928424,
+      "balanced_accuracy": 0.9236111111111112,
+      "confusion": {
+        "tn": 70,
+        "fp": 2,
+        "fn": 1,
+        "tp": 7
+      }
+    },
+    "majority_baseline": {
+      "n": 80,
+      "accuracy": 0.9,
+      "f1_success": 0.0,
+      "f1_failure": 0.9473684210526315,
+      "macro_f1": 0.47368421052631576,
+      "balanced_accuracy": 0.5,
+      "confusion": {
+        "tn": 72,
+        "fp": 0,
+        "fn": 8,
+        "tp": 0
+      }
+    },
+    "target_source": "singleton_conformal_state_label",
+    "per_probe": [
+      {
+        "env_id": "miniwob/enter-text-v1",
+        "step": 0,
+        "layer": 7,
+        "n_records": 40,
+        "n_labeled": 0,
+        "n_predicted": 0,
+        "n_evaluated": 0,
+        "n_unsupported": 40,
+        "label_coverage": 0.0,
+        "evaluation_coverage": null,
+        "metrics": {
+          "n": 0,
+          "accuracy": null,
+          "f1_success": null,
+          "f1_failure": null,
+          "macro_f1": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp": 0
+          }
+        },
+        "majority_baseline": {
+          "n": 0,
+          "accuracy": null,
+          "f1_success": null,
+          "f1_failure": null,
+          "macro_f1": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp": 0
+          }
+        }
+      },
+      {
+        "env_id": "miniwob/enter-text-v1",
+        "step": 0,
+        "layer": 14,
+        "n_records": 40,
+        "n_labeled": 0,
+        "n_predicted": 0,
+        "n_evaluated": 0,
+        "n_unsupported": 40,
+        "label_coverage": 0.0,
+        "evaluation_coverage": null,
+        "metrics": {
+          "n": 0,
+          "accuracy": null,
+          "f1_success": null,
+          "f1_failure": null,
+          "macro_f1": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp": 0
+          }
+        },
+        "majority_baseline": {
+          "n": 0,
+          "accuracy": null,
+          "f1_success": null,
+          "f1_failure": null,
+          "macro_f1": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp": 0
+          }
+        }
+      },
+      {
+        "env_id": "miniwob/enter-text-v1",
+        "step": 0,
+        "layer": 21,
+        "n_records": 40,
+        "n_labeled": 0,
+        "n_predicted": 0,
+        "n_evaluated": 0,
+        "n_unsupported": 40,
+        "label_coverage": 0.0,
+        "evaluation_coverage": null,
+        "metrics": {
+          "n": 0,
+          "accuracy": null,
+          "f1_success": null,
+          "f1_failure": null,
+          "macro_f1": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp": 0
+          }
+        },
+        "majority_baseline": {
+          "n": 0,
+          "accuracy": null,
+          "f1_success": null,
+          "f1_failure": null,
+          "macro_f1": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp": 0
+          }
+        }
+      },
+      {
+        "env_id": "miniwob/enter-text-v1",
+        "step": 0,
+        "layer": 28,
+        "n_records": 40,
+        "n_labeled": 0,
+        "n_predicted": 0,
+        "n_evaluated": 0,
+        "n_unsupported": 40,
+        "label_coverage": 0.0,
+        "evaluation_coverage": null,
+        "metrics": {
+          "n": 0,
+          "accuracy": null,
+          "f1_success": null,
+          "f1_failure": null,
+          "macro_f1": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp": 0
+          }
+        },
+        "majority_baseline": {
+          "n": 0,
+          "accuracy": null,
+          "f1_success": null,
+          "f1_failure": null,
+          "macro_f1": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "tp": 0
+          }
+        }
+      },
+      {
+        "env_id": "miniwob/enter-text-v1",
+        "step": 1,
+        "layer": 7,
+        "n_records": 38,
+        "n_labeled": 20,
+        "n_predicted": 38,
+        "n_evaluated": 20,
+        "n_unsupported": 0,
+        "label_coverage": 0.5263157894736842,
+        "evaluation_coverage": 1.0,
+        "metrics": {
+          "n": 20,
+          "accuracy": 0.9,
+          "f1_success": 0.5,
+          "f1_failure": 0.9444444444444444,
+          "macro_f1": 0.7222222222222222,
+          "balanced_accuracy": 0.7222222222222222,
+          "confusion": {
+            "tn": 17,
+            "fp": 1,
+            "fn": 1,
+            "tp": 1
+          }
+        },
+        "majority_baseline": {
+          "n": 20,
+          "accuracy": 0.9,
+          "f1_success": 0.0,
+          "f1_failure": 0.9473684210526315,
+          "macro_f1": 0.47368421052631576,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "tn": 18,
+            "fp": 0,
+            "fn": 2,
+            "tp": 0
+          }
+        }
+      },
+      {
+        "env_id": "miniwob/enter-text-v1",
+        "step": 1,
+        "layer": 14,
+        "n_records": 38,
+        "n_labeled": 20,
+        "n_predicted": 38,
+        "n_evaluated": 20,
+        "n_unsupported": 0,
+        "label_coverage": 0.5263157894736842,
+        "evaluation_coverage": 1.0,
+        "metrics": {
+          "n": 20,
+          "accuracy": 0.95,
+          "f1_success": 0.8,
+          "f1_failure": 0.9714285714285714,
+          "macro_f1": 0.8857142857142857,
+          "balanced_accuracy": 0.9722222222222222,
+          "confusion": {
+            "tn": 17,
+            "fp": 1,
+            "fn": 0,
+            "tp": 2
+          }
+        },
+        "majority_baseline": {
+          "n": 20,
+          "accuracy": 0.9,
+          "f1_success": 0.0,
+          "f1_failure": 0.9473684210526315,
+          "macro_f1": 0.47368421052631576,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "tn": 18,
+            "fp": 0,
+            "fn": 2,
+            "tp": 0
+          }
+        }
+      },
+      {
+        "env_id": "miniwob/enter-text-v1",
+        "step": 1,
+        "layer": 21,
+        "n_records": 38,
+        "n_labeled": 20,
+        "n_predicted": 38,
+        "n_evaluated": 20,
+        "n_unsupported": 0,
+        "label_coverage": 0.5263157894736842,
+        "evaluation_coverage": 1.0,
+        "metrics": {
+          "n": 20,
+          "accuracy": 1.0,
+          "f1_success": 1.0,
+          "f1_failure": 1.0,
+          "macro_f1": 1.0,
+          "balanced_accuracy": 1.0,
+          "confusion": {
+            "tn": 18,
+            "fp": 0,
+            "fn": 0,
+            "tp": 2
+          }
+        },
+        "majority_baseline": {
+          "n": 20,
+          "accuracy": 0.9,
+          "f1_success": 0.0,
+          "f1_failure": 0.9473684210526315,
+          "macro_f1": 0.47368421052631576,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "tn": 18,
+            "fp": 0,
+            "fn": 2,
+            "tp": 0
+          }
+        }
+      },
+      {
+        "env_id": "miniwob/enter-text-v1",
+        "step": 1,
+        "layer": 28,
+        "n_records": 38,
+        "n_labeled": 20,
+        "n_predicted": 38,
+        "n_evaluated": 20,
+        "n_unsupported": 0,
+        "label_coverage": 0.5263157894736842,
+        "evaluation_coverage": 1.0,
+        "metrics": {
+          "n": 20,
+          "accuracy": 1.0,
+          "f1_success": 1.0,
+          "f1_failure": 1.0,
+          "macro_f1": 1.0,
+          "balanced_accuracy": 1.0,
+          "confusion": {
+            "tn": 18,
+            "fp": 0,
+            "fn": 0,
+            "tp": 2
+          }
+        },
+        "majority_baseline": {
+          "n": 20,
+          "accuracy": 0.9,
+          "f1_success": 0.0,
+          "f1_failure": 0.9473684210526315,
+          "macro_f1": 0.47368421052631576,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "tn": 18,
+            "fp": 0,
+            "fn": 2,
+            "tp": 0
+          }
+        }
+      }
+    ]
+  },
+  "outcome_evaluation": {
+    "primary_layer": 14,
+    "primary": {
+      "episodes": 40,
+      "successful_episodes": 15,
+      "failed_episodes": 25,
+      "checks": 78,
+      "supported_checks": 38,
+      "unsupported_checks": 40,
+      "supported_check_fraction": 0.48717948717948717,
+      "supported_episodes": 38,
+      "unsupported_episodes": 2,
+      "episode_prediction_coverage": 0.95,
+      "has_supported_predictions": true,
+      "unsupported_episode_ids": [
+        "miniwob/enter-text-v1::seed=70005",
+        "miniwob/enter-text-v1::seed=70037"
+      ],
+      "alarm_episodes": 17,
+      "detected_failure_episodes": 17,
+      "missed_failure_episodes": 8,
+      "false_alarm_episodes": 0,
+      "failure_recall": 0.68,
+      "episode_false_alarm_rate": 0.0,
+      "alarm_precision": 1.0,
+      "failure_recall_by_minimum_lead_steps": {
+        "1": 0.68,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "detected_failures_by_minimum_lead_steps": {
+        "1": 17,
+        "2": 0,
+        "3": 0
+      },
+      "median_failure_lead_steps": 1,
+      "confidence_intervals_95": {
+        "failure_recall": {
+          "numerator": 17,
+          "denominator": 25,
+          "lower": 0.48410269273102247,
+          "upper": 0.8279480969309202
+        },
+        "episode_false_alarm_rate": {
+          "numerator": 0,
+          "denominator": 15,
+          "lower": 0.0,
+          "upper": 0.20388330103584862
+        },
+        "alarm_precision": {
+          "numerator": 17,
+          "denominator": 17,
+          "lower": 0.8156818649911483,
+          "upper": 1.0
+        },
+        "episode_prediction_coverage": {
+          "numerator": 38,
+          "denominator": 40,
+          "lower": 0.8349612263085903,
+          "upper": 0.9861793326138516
+        },
+        "failure_recall_by_minimum_lead_steps": {
+          "1": {
+            "numerator": 17,
+            "denominator": 25,
+            "lower": 0.48410269273102247,
+            "upper": 0.8279480969309202
+          },
+          "2": {
+            "numerator": 0,
+            "denominator": 25,
+            "lower": 1.3877787807814457e-17,
+            "upper": 0.13319225093904846
+          },
+          "3": {
+            "numerator": 0,
+            "denominator": 25,
+            "lower": 1.3877787807814457e-17,
+            "upper": 0.13319225093904846
+          }
+        }
+      },
+      "alarms": [
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70002",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70006",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70007",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70009",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70011",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70012",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70013",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70014",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70016",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70020",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70022",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70024",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70025",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70027",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70028",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70034",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        },
+        {
+          "episode_id": "miniwob/enter-text-v1::seed=70038",
+          "env_id": "miniwob/enter-text-v1",
+          "success": false,
+          "first_alarm_step": 1,
+          "lead_steps": 1
+        }
+      ]
+    },
+    "by_layer": {
+      "7": {
+        "episodes": 40,
+        "successful_episodes": 15,
+        "failed_episodes": 25,
+        "checks": 78,
+        "supported_checks": 38,
+        "unsupported_checks": 40,
+        "supported_check_fraction": 0.48717948717948717,
+        "supported_episodes": 38,
+        "unsupported_episodes": 2,
+        "episode_prediction_coverage": 0.95,
+        "has_supported_predictions": true,
+        "unsupported_episode_ids": [
+          "miniwob/enter-text-v1::seed=70005",
+          "miniwob/enter-text-v1::seed=70037"
+        ],
+        "alarm_episodes": 19,
+        "detected_failure_episodes": 17,
+        "missed_failure_episodes": 8,
+        "false_alarm_episodes": 2,
+        "failure_recall": 0.68,
+        "episode_false_alarm_rate": 0.13333333333333333,
+        "alarm_precision": 0.8947368421052632,
+        "failure_recall_by_minimum_lead_steps": {
+          "1": 0.68,
+          "2": 0.0,
+          "3": 0.0
+        },
+        "detected_failures_by_minimum_lead_steps": {
+          "1": 17,
+          "2": 0,
+          "3": 0
+        },
+        "median_failure_lead_steps": 1,
+        "confidence_intervals_95": {
+          "failure_recall": {
+            "numerator": 17,
+            "denominator": 25,
+            "lower": 0.48410269273102247,
+            "upper": 0.8279480969309202
+          },
+          "episode_false_alarm_rate": {
+            "numerator": 2,
+            "denominator": 15,
+            "lower": 0.03736125910306537,
+            "upper": 0.37881982832322364
+          },
+          "alarm_precision": {
+            "numerator": 17,
+            "denominator": 19,
+            "lower": 0.6860591728889099,
+            "upper": 0.9706414397011299
+          },
+          "episode_prediction_coverage": {
+            "numerator": 38,
+            "denominator": 40,
+            "lower": 0.8349612263085903,
+            "upper": 0.9861793326138516
+          },
+          "failure_recall_by_minimum_lead_steps": {
+            "1": {
+              "numerator": 17,
+              "denominator": 25,
+              "lower": 0.48410269273102247,
+              "upper": 0.8279480969309202
+            },
+            "2": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            },
+            "3": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            }
+          }
+        },
+        "alarms": [
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70002",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70006",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70007",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70009",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70011",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70012",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70013",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70014",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70016",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70020",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70022",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70023",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70024",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70025",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70027",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70028",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70029",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70034",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70038",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          }
+        ]
+      },
+      "14": {
+        "episodes": 40,
+        "successful_episodes": 15,
+        "failed_episodes": 25,
+        "checks": 78,
+        "supported_checks": 38,
+        "unsupported_checks": 40,
+        "supported_check_fraction": 0.48717948717948717,
+        "supported_episodes": 38,
+        "unsupported_episodes": 2,
+        "episode_prediction_coverage": 0.95,
+        "has_supported_predictions": true,
+        "unsupported_episode_ids": [
+          "miniwob/enter-text-v1::seed=70005",
+          "miniwob/enter-text-v1::seed=70037"
+        ],
+        "alarm_episodes": 17,
+        "detected_failure_episodes": 17,
+        "missed_failure_episodes": 8,
+        "false_alarm_episodes": 0,
+        "failure_recall": 0.68,
+        "episode_false_alarm_rate": 0.0,
+        "alarm_precision": 1.0,
+        "failure_recall_by_minimum_lead_steps": {
+          "1": 0.68,
+          "2": 0.0,
+          "3": 0.0
+        },
+        "detected_failures_by_minimum_lead_steps": {
+          "1": 17,
+          "2": 0,
+          "3": 0
+        },
+        "median_failure_lead_steps": 1,
+        "confidence_intervals_95": {
+          "failure_recall": {
+            "numerator": 17,
+            "denominator": 25,
+            "lower": 0.48410269273102247,
+            "upper": 0.8279480969309202
+          },
+          "episode_false_alarm_rate": {
+            "numerator": 0,
+            "denominator": 15,
+            "lower": 0.0,
+            "upper": 0.20388330103584862
+          },
+          "alarm_precision": {
+            "numerator": 17,
+            "denominator": 17,
+            "lower": 0.8156818649911483,
+            "upper": 1.0
+          },
+          "episode_prediction_coverage": {
+            "numerator": 38,
+            "denominator": 40,
+            "lower": 0.8349612263085903,
+            "upper": 0.9861793326138516
+          },
+          "failure_recall_by_minimum_lead_steps": {
+            "1": {
+              "numerator": 17,
+              "denominator": 25,
+              "lower": 0.48410269273102247,
+              "upper": 0.8279480969309202
+            },
+            "2": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            },
+            "3": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            }
+          }
+        },
+        "alarms": [
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70002",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70006",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70007",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70009",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70011",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70012",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70013",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70014",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70016",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70020",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70022",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70024",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70025",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70027",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70028",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70034",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70038",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          }
+        ]
+      },
+      "21": {
+        "episodes": 40,
+        "successful_episodes": 15,
+        "failed_episodes": 25,
+        "checks": 78,
+        "supported_checks": 38,
+        "unsupported_checks": 40,
+        "supported_check_fraction": 0.48717948717948717,
+        "supported_episodes": 38,
+        "unsupported_episodes": 2,
+        "episode_prediction_coverage": 0.95,
+        "has_supported_predictions": true,
+        "unsupported_episode_ids": [
+          "miniwob/enter-text-v1::seed=70005",
+          "miniwob/enter-text-v1::seed=70037"
+        ],
+        "alarm_episodes": 18,
+        "detected_failure_episodes": 18,
+        "missed_failure_episodes": 7,
+        "false_alarm_episodes": 0,
+        "failure_recall": 0.72,
+        "episode_false_alarm_rate": 0.0,
+        "alarm_precision": 1.0,
+        "failure_recall_by_minimum_lead_steps": {
+          "1": 0.72,
+          "2": 0.0,
+          "3": 0.0
+        },
+        "detected_failures_by_minimum_lead_steps": {
+          "1": 18,
+          "2": 0,
+          "3": 0
+        },
+        "median_failure_lead_steps": 1.0,
+        "confidence_intervals_95": {
+          "failure_recall": {
+            "numerator": 18,
+            "denominator": 25,
+            "lower": 0.5242339480963842,
+            "upper": 0.8571614614904344
+          },
+          "episode_false_alarm_rate": {
+            "numerator": 0,
+            "denominator": 15,
+            "lower": 0.0,
+            "upper": 0.20388330103584862
+          },
+          "alarm_precision": {
+            "numerator": 18,
+            "denominator": 18,
+            "lower": 0.8241207763533425,
+            "upper": 1.0
+          },
+          "episode_prediction_coverage": {
+            "numerator": 38,
+            "denominator": 40,
+            "lower": 0.8349612263085903,
+            "upper": 0.9861793326138516
+          },
+          "failure_recall_by_minimum_lead_steps": {
+            "1": {
+              "numerator": 18,
+              "denominator": 25,
+              "lower": 0.5242339480963842,
+              "upper": 0.8571614614904344
+            },
+            "2": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            },
+            "3": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            }
+          }
+        },
+        "alarms": [
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70002",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70006",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70007",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70009",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70010",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70011",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70012",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70013",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70014",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70016",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70020",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70022",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70024",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70025",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70027",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70028",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70034",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70038",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          }
+        ]
+      },
+      "28": {
+        "episodes": 40,
+        "successful_episodes": 15,
+        "failed_episodes": 25,
+        "checks": 78,
+        "supported_checks": 38,
+        "unsupported_checks": 40,
+        "supported_check_fraction": 0.48717948717948717,
+        "supported_episodes": 38,
+        "unsupported_episodes": 2,
+        "episode_prediction_coverage": 0.95,
+        "has_supported_predictions": true,
+        "unsupported_episode_ids": [
+          "miniwob/enter-text-v1::seed=70005",
+          "miniwob/enter-text-v1::seed=70037"
+        ],
+        "alarm_episodes": 18,
+        "detected_failure_episodes": 18,
+        "missed_failure_episodes": 7,
+        "false_alarm_episodes": 0,
+        "failure_recall": 0.72,
+        "episode_false_alarm_rate": 0.0,
+        "alarm_precision": 1.0,
+        "failure_recall_by_minimum_lead_steps": {
+          "1": 0.72,
+          "2": 0.0,
+          "3": 0.0
+        },
+        "detected_failures_by_minimum_lead_steps": {
+          "1": 18,
+          "2": 0,
+          "3": 0
+        },
+        "median_failure_lead_steps": 1.0,
+        "confidence_intervals_95": {
+          "failure_recall": {
+            "numerator": 18,
+            "denominator": 25,
+            "lower": 0.5242339480963842,
+            "upper": 0.8571614614904344
+          },
+          "episode_false_alarm_rate": {
+            "numerator": 0,
+            "denominator": 15,
+            "lower": 0.0,
+            "upper": 0.20388330103584862
+          },
+          "alarm_precision": {
+            "numerator": 18,
+            "denominator": 18,
+            "lower": 0.8241207763533425,
+            "upper": 1.0
+          },
+          "episode_prediction_coverage": {
+            "numerator": 38,
+            "denominator": 40,
+            "lower": 0.8349612263085903,
+            "upper": 0.9861793326138516
+          },
+          "failure_recall_by_minimum_lead_steps": {
+            "1": {
+              "numerator": 18,
+              "denominator": 25,
+              "lower": 0.5242339480963842,
+              "upper": 0.8571614614904344
+            },
+            "2": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            },
+            "3": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            }
+          }
+        },
+        "alarms": [
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70002",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70006",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70007",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70009",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70010",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70011",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70012",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70013",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70014",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70016",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70020",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70022",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70024",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70025",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70027",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70028",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70034",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70038",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 1,
+            "lead_steps": 1
+          }
+        ]
+      }
+    },
+    "baselines": {
+      "always_warn": {
+        "episodes": 40,
+        "successful_episodes": 15,
+        "failed_episodes": 25,
+        "checks": 40,
+        "supported_checks": 40,
+        "unsupported_checks": 0,
+        "supported_check_fraction": 1.0,
+        "supported_episodes": 40,
+        "unsupported_episodes": 0,
+        "episode_prediction_coverage": 1.0,
+        "has_supported_predictions": true,
+        "unsupported_episode_ids": [],
+        "alarm_episodes": 40,
+        "detected_failure_episodes": 25,
+        "missed_failure_episodes": 0,
+        "false_alarm_episodes": 15,
+        "failure_recall": 1.0,
+        "episode_false_alarm_rate": 1.0,
+        "alarm_precision": 0.625,
+        "failure_recall_by_minimum_lead_steps": {
+          "1": 1.0,
+          "2": 0.92,
+          "3": 0.0
+        },
+        "detected_failures_by_minimum_lead_steps": {
+          "1": 25,
+          "2": 23,
+          "3": 0
+        },
+        "median_failure_lead_steps": 2,
+        "confidence_intervals_95": {
+          "failure_recall": {
+            "numerator": 25,
+            "denominator": 25,
+            "lower": 0.8668077490609515,
+            "upper": 0.9999999999999999
+          },
+          "episode_false_alarm_rate": {
+            "numerator": 15,
+            "denominator": 15,
+            "lower": 0.7961166989641515,
+            "upper": 1.0
+          },
+          "alarm_precision": {
+            "numerator": 25,
+            "denominator": 40,
+            "lower": 0.47032439137301096,
+            "upper": 0.7577702083276673
+          },
+          "episode_prediction_coverage": {
+            "numerator": 40,
+            "denominator": 40,
+            "lower": 0.9123783988027135,
+            "upper": 1.0
+          },
+          "failure_recall_by_minimum_lead_steps": {
+            "1": {
+              "numerator": 25,
+              "denominator": 25,
+              "lower": 0.8668077490609515,
+              "upper": 0.9999999999999999
+            },
+            "2": {
+              "numerator": 23,
+              "denominator": 25,
+              "lower": 0.7503389104960468,
+              "upper": 0.9777795987151524
+            },
+            "3": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            }
+          }
+        },
+        "alarms": [
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70000",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70001",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70002",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70003",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70004",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70005",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70006",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70007",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70008",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70009",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70010",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70011",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70012",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70013",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70014",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70015",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70016",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70017",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70018",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70019",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70020",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70021",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70022",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70023",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70024",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70025",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70026",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70027",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70028",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70029",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70030",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70031",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70032",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70033",
+            "env_id": "miniwob/enter-text-v1",
+            "success": true,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70034",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70035",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70036",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70037",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 1
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70038",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          },
+          {
+            "episode_id": "miniwob/enter-text-v1::seed=70039",
+            "env_id": "miniwob/enter-text-v1",
+            "success": false,
+            "first_alarm_step": 0,
+            "lead_steps": 2
+          }
+        ]
+      },
+      "never_warn": {
+        "episodes": 40,
+        "successful_episodes": 15,
+        "failed_episodes": 25,
+        "checks": 40,
+        "supported_checks": 40,
+        "unsupported_checks": 0,
+        "supported_check_fraction": 1.0,
+        "supported_episodes": 40,
+        "unsupported_episodes": 0,
+        "episode_prediction_coverage": 1.0,
+        "has_supported_predictions": true,
+        "unsupported_episode_ids": [],
+        "alarm_episodes": 0,
+        "detected_failure_episodes": 0,
+        "missed_failure_episodes": 25,
+        "false_alarm_episodes": 0,
+        "failure_recall": 0.0,
+        "episode_false_alarm_rate": 0.0,
+        "alarm_precision": null,
+        "failure_recall_by_minimum_lead_steps": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0
+        },
+        "detected_failures_by_minimum_lead_steps": {
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "median_failure_lead_steps": null,
+        "confidence_intervals_95": {
+          "failure_recall": {
+            "numerator": 0,
+            "denominator": 25,
+            "lower": 1.3877787807814457e-17,
+            "upper": 0.13319225093904846
+          },
+          "episode_false_alarm_rate": {
+            "numerator": 0,
+            "denominator": 15,
+            "lower": 0.0,
+            "upper": 0.20388330103584862
+          },
+          "alarm_precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "lower": null,
+            "upper": null
+          },
+          "episode_prediction_coverage": {
+            "numerator": 40,
+            "denominator": 40,
+            "lower": 0.9123783988027135,
+            "upper": 1.0
+          },
+          "failure_recall_by_minimum_lead_steps": {
+            "1": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            },
+            "2": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            },
+            "3": {
+              "numerator": 0,
+              "denominator": 25,
+              "lower": 1.3877787807814457e-17,
+              "upper": 0.13319225093904846
+            }
+          }
+        },
+        "alarms": []
+      }
+    },
+    "target": "final_episode_outcome",
+    "notes": [
+      "Probe outcome metrics carry no conformal coverage guarantee.",
+      "Unsupported episodes remain in all outcome denominators.",
+      "Check coverage uses supplied preterminal prediction records.",
+      "Wilson intervals use episode counts; lead-time medians use detected failures only.",
+      "The primary layer must be fixed before examining evaluation outcomes."
+    ]
+  },
+  "elapsed_seconds": 4725.486222166917
+}

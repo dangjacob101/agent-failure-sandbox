@@ -1,0 +1,19 @@
+Early failure prediction pilot
+Calibration: 3 successes, 97 failures (100 episodes).
+Evaluation: 3 successes, 47 failures (50 episodes).
+Conformal checks: 1 success-only, 0 failure-only, 147 uncertain, 0 empty.
+Accuracy when decisive: 1/1 (100.0%); decisive checks: 1/148 (0.7%).
+
+Conformal: caught failures 0/47 (0.0%); false warnings 0/3 (0.0%); correct warnings 0/0 (undefined).
+  Failures caught at least 1 action(s) early: 0/47 (0.0%); 2 action(s) early: 0/47 (0.0%); 3 action(s) early: 0/47 (0.0%).
+Always warn before first action: caught failures 47/47 (100.0%); false warnings 3/3 (100.0%); correct warnings 47/50 (94.0%).
+  Failures caught at least 1 action(s) early: 47/47 (100.0%); 2 action(s) early: 47/47 (100.0%); 3 action(s) early: 47/47 (100.0%).
+First score below 0.5: caught failures 47/47 (100.0%); false warnings 3/3 (100.0%); correct warnings 47/50 (94.0%).
+  Failures caught at least 1 action(s) early: 47/47 (100.0%); 2 action(s) early: 47/47 (100.0%); 3 action(s) early: 47/47 (100.0%).
+
+miniwob/click-test-2-v1: smallest possible p_success = 0.75 (alpha 0.1).
+Too few successful calibration episodes to reject success at this alpha.
+Ties at maximum success nonconformity prevent rejecting success at any score.
+Recorded episode time: 72.2 minutes.
+Uncertainty is not a correct prediction. This is a short-task test; it does not validate long-horizon warnings.
+Episode-level Wilson 95% intervals and full counts are in report.json. Check-level counts have no confidence intervals.

@@ -1,0 +1,33 @@
+{
+  "model_id": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+  "model_revision": null,
+  "device": "auto",
+  "dtype": "auto",
+  "env_ids": [
+    "miniwob/click-test-2-v1"
+  ],
+  "environment": "miniwob",
+  "env_kwargs": {},
+  "calibration_seeds": [
+    0,
+    1
+  ],
+  "evaluation_seeds": [
+    1000
+  ],
+  "max_steps": 3,
+  "mc_samples": 1,
+  "mc_max_steps": null,
+  "check_every": 1,
+  "temperature": 0.7,
+  "max_new_tokens": 48,
+  "max_context_tokens": 8192,
+  "alpha": 0.1,
+  "seed": 42,
+  "output_dir": "runs/qwen05b_browser_smoke",
+  "calibration_path": null,
+  "agent_tag": null,
+  "environment_tag": null,
+  "agent_backend": "hf",
+  "scorer_tag": null
+}

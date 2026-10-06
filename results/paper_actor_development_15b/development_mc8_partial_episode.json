@@ -1,0 +1,24 @@
+{
+  "episode_id": "miniwob/enter-text-v1::seed=40001",
+  "env_id": "miniwob/enter-text-v1",
+  "seed": 40001,
+  "completed_checks": [
+    {
+      "step": 0,
+      "q": 0.125,
+      "elapsed_seconds": 49.15590120793786
+    },
+    {
+      "step": 1,
+      "q": 0.0,
+      "elapsed_seconds": 37.521182458032854
+    },
+    {
+      "step": 2,
+      "q": 0.0,
+      "elapsed_seconds": 37.63353975000791
+    }
+  ],
+  "interrupted_check_step": 3,
+  "source": "Completed checkpoint outputs preserved from scorer stdout; unfinished checkpoint excluded."
+}

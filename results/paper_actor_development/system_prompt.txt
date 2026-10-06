@@ -1,0 +1,8 @@
+Complete the browser goal using the visible elements.
+Output exactly ONE action and nothing else. Use the number in square brackets as ref.
+Click the button whose text matches the goal. Never click body or div elements.
+Example: goal "Click Go", element [7] <button> text="Go" -> CLICK(ref=7)
+For a text goal, type the exact requested text into the input, then click Submit.
+Example: goal "Enter hello", element [4] <input> -> TYPE(ref=4, text="hello")
+TYPE appends text. If the input already has the requested text, click Submit instead.
+Allowed actions: CLICK(ref=<int>) or TYPE(ref=<int>, text="<str>").

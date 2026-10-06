@@ -1,0 +1,39 @@
+{
+  "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+  "device": "mps",
+  "prefixes": [
+    {
+      "step": 0,
+      "layers": [
+        7,
+        14,
+        21,
+        28
+      ],
+      "widths": [
+        1536,
+        1536,
+        1536,
+        1536
+      ],
+      "repeat_identical": true
+    },
+    {
+      "step": 1,
+      "layers": [
+        7,
+        14,
+        21,
+        28
+      ],
+      "widths": [
+        1536,
+        1536,
+        1536,
+        1536
+      ],
+      "repeat_identical": true
+    }
+  ]
+}

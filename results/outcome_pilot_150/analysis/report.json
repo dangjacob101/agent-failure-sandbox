@@ -1,0 +1,545 @@
+{
+  "run_dir": "results/outcome_pilot_150",
+  "synthetic": false,
+  "protocol_fingerprint": "27f2ce3d59a4b87d17a7de020704907de8ffde2e964a16a3a4dfec7e3adf70b9",
+  "runtime": {
+    "versions": {
+      "python": "3.12.13",
+      "early-failure-sandbox": "0.1.0",
+      "miniwob": "1.0",
+      "gymnasium": "0.29.0",
+      "selenium": "4.50.0",
+      "torch": "2.14.1",
+      "transformers": "4.57.6"
+    },
+    "agent": {
+      "model_id": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "requested_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+      "resolved_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+      "device": "mps",
+      "dtype": "float16"
+    },
+    "environment": {
+      "implementation": "miniwob",
+      "browser": "chrome",
+      "browser_version": "154.0.8037.98",
+      "chromedriver_version": "154.0.8037.92",
+      "clock_mode": "action_count"
+    },
+    "scorer": {
+      "implementation": "monte-carlo-v1"
+    }
+  },
+  "settings": {
+    "model_id": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+    "env_ids": [
+      "miniwob/click-test-2-v1"
+    ],
+    "max_steps": 3,
+    "mc_samples": 4,
+    "alpha": 0.1
+  },
+  "comparison_rules_declared_in": "results/outcome_pilot_150/protocol.json",
+  "calibration_outcomes": {
+    "episodes": 100,
+    "success": 3,
+    "failure": 97
+  },
+  "evaluation": {
+    "outcomes": {
+      "episodes": 50,
+      "success": 3,
+      "failure": 47
+    },
+    "check_counts": {
+      "success_only": 1,
+      "failure_only": 0,
+      "uncertain": 147,
+      "empty": 0,
+      "total": 148
+    },
+    "singleton_accuracy": {
+      "numerator": 1,
+      "denominator": 1,
+      "value": 1.0
+    },
+    "singleton_decision_fraction": {
+      "numerator": 1,
+      "denominator": 148,
+      "value": 0.006756756756756757
+    },
+    "uncertain_fraction": {
+      "numerator": 147,
+      "denominator": 148,
+      "value": 0.9932432432432432
+    },
+    "empty_fraction": {
+      "numerator": 0,
+      "denominator": 148,
+      "value": 0.0
+    },
+    "conformal": {
+      "failure_recall": {
+        "numerator": 0,
+        "denominator": 47,
+        "value": 0.0,
+        "wilson_95_percent_interval": [
+          0.0,
+          0.07555760416399626
+        ]
+      },
+      "false_alarm_rate": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0,
+        "wilson_95_percent_interval": [
+          0.0,
+          0.5614970317550454
+        ]
+      },
+      "alarm_precision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null,
+        "wilson_95_percent_interval": null
+      },
+      "failure_recall_by_minimum_lead_actions": {
+        "1": {
+          "numerator": 0,
+          "denominator": 47,
+          "value": 0.0,
+          "wilson_95_percent_interval": [
+            0.0,
+            0.07555760416399626
+          ]
+        },
+        "2": {
+          "numerator": 0,
+          "denominator": 47,
+          "value": 0.0,
+          "wilson_95_percent_interval": [
+            0.0,
+            0.07555760416399626
+          ]
+        },
+        "3": {
+          "numerator": 0,
+          "denominator": 47,
+          "value": 0.0,
+          "wilson_95_percent_interval": [
+            0.0,
+            0.07555760416399626
+          ]
+        }
+      },
+      "alarm_episodes": 0,
+      "missed_failure_episodes": 47
+    },
+    "baselines": {
+      "always_failure_before_first_action": {
+        "failure_recall": {
+          "numerator": 47,
+          "denominator": 47,
+          "value": 1.0,
+          "wilson_95_percent_interval": [
+            0.9244423958360038,
+            1.0
+          ]
+        },
+        "false_alarm_rate": {
+          "numerator": 3,
+          "denominator": 3,
+          "value": 1.0,
+          "wilson_95_percent_interval": [
+            0.4385029682449546,
+            1.0
+          ]
+        },
+        "alarm_precision": {
+          "numerator": 47,
+          "denominator": 50,
+          "value": 0.94,
+          "wilson_95_percent_interval": [
+            0.8378290831116182,
+            0.979385029651026
+          ]
+        },
+        "failure_recall_by_minimum_lead_actions": {
+          "1": {
+            "numerator": 47,
+            "denominator": 47,
+            "value": 1.0,
+            "wilson_95_percent_interval": [
+              0.9244423958360038,
+              1.0
+            ]
+          },
+          "2": {
+            "numerator": 47,
+            "denominator": 47,
+            "value": 1.0,
+            "wilson_95_percent_interval": [
+              0.9244423958360038,
+              1.0
+            ]
+          },
+          "3": {
+            "numerator": 47,
+            "denominator": 47,
+            "value": 1.0,
+            "wilson_95_percent_interval": [
+              0.9244423958360038,
+              1.0
+            ]
+          }
+        },
+        "alarm_episodes": 50,
+        "missed_failure_episodes": 0
+      },
+      "first_q_below_0_5": {
+        "failure_recall": {
+          "numerator": 47,
+          "denominator": 47,
+          "value": 1.0,
+          "wilson_95_percent_interval": [
+            0.9244423958360038,
+            1.0
+          ]
+        },
+        "false_alarm_rate": {
+          "numerator": 3,
+          "denominator": 3,
+          "value": 1.0,
+          "wilson_95_percent_interval": [
+            0.4385029682449546,
+            1.0
+          ]
+        },
+        "alarm_precision": {
+          "numerator": 47,
+          "denominator": 50,
+          "value": 0.94,
+          "wilson_95_percent_interval": [
+            0.8378290831116182,
+            0.979385029651026
+          ]
+        },
+        "failure_recall_by_minimum_lead_actions": {
+          "1": {
+            "numerator": 47,
+            "denominator": 47,
+            "value": 1.0,
+            "wilson_95_percent_interval": [
+              0.9244423958360038,
+              1.0
+            ]
+          },
+          "2": {
+            "numerator": 47,
+            "denominator": 47,
+            "value": 1.0,
+            "wilson_95_percent_interval": [
+              0.9244423958360038,
+              1.0
+            ]
+          },
+          "3": {
+            "numerator": 47,
+            "denominator": 47,
+            "value": 1.0,
+            "wilson_95_percent_interval": [
+              0.9244423958360038,
+              1.0
+            ]
+          }
+        },
+        "alarm_episodes": 50,
+        "missed_failure_episodes": 0
+      }
+    }
+  },
+  "by_environment": {
+    "miniwob/click-test-2-v1": {
+      "calibration_outcomes": {
+        "episodes": 100,
+        "success": 3,
+        "failure": 97
+      },
+      "evaluation": {
+        "outcomes": {
+          "episodes": 50,
+          "success": 3,
+          "failure": 47
+        },
+        "check_counts": {
+          "success_only": 1,
+          "failure_only": 0,
+          "uncertain": 147,
+          "empty": 0,
+          "total": 148
+        },
+        "singleton_accuracy": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0
+        },
+        "singleton_decision_fraction": {
+          "numerator": 1,
+          "denominator": 148,
+          "value": 0.006756756756756757
+        },
+        "uncertain_fraction": {
+          "numerator": 147,
+          "denominator": 148,
+          "value": 0.9932432432432432
+        },
+        "empty_fraction": {
+          "numerator": 0,
+          "denominator": 148,
+          "value": 0.0
+        },
+        "conformal": {
+          "failure_recall": {
+            "numerator": 0,
+            "denominator": 47,
+            "value": 0.0,
+            "wilson_95_percent_interval": [
+              0.0,
+              0.07555760416399626
+            ]
+          },
+          "false_alarm_rate": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0,
+            "wilson_95_percent_interval": [
+              0.0,
+              0.5614970317550454
+            ]
+          },
+          "alarm_precision": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "wilson_95_percent_interval": null
+          },
+          "failure_recall_by_minimum_lead_actions": {
+            "1": {
+              "numerator": 0,
+              "denominator": 47,
+              "value": 0.0,
+              "wilson_95_percent_interval": [
+                0.0,
+                0.07555760416399626
+              ]
+            },
+            "2": {
+              "numerator": 0,
+              "denominator": 47,
+              "value": 0.0,
+              "wilson_95_percent_interval": [
+                0.0,
+                0.07555760416399626
+              ]
+            },
+            "3": {
+              "numerator": 0,
+              "denominator": 47,
+              "value": 0.0,
+              "wilson_95_percent_interval": [
+                0.0,
+                0.07555760416399626
+              ]
+            }
+          },
+          "alarm_episodes": 0,
+          "missed_failure_episodes": 47
+        },
+        "baselines": {
+          "always_failure_before_first_action": {
+            "failure_recall": {
+              "numerator": 47,
+              "denominator": 47,
+              "value": 1.0,
+              "wilson_95_percent_interval": [
+                0.9244423958360038,
+                1.0
+              ]
+            },
+            "false_alarm_rate": {
+              "numerator": 3,
+              "denominator": 3,
+              "value": 1.0,
+              "wilson_95_percent_interval": [
+                0.4385029682449546,
+                1.0
+              ]
+            },
+            "alarm_precision": {
+              "numerator": 47,
+              "denominator": 50,
+              "value": 0.94,
+              "wilson_95_percent_interval": [
+                0.8378290831116182,
+                0.979385029651026
+              ]
+            },
+            "failure_recall_by_minimum_lead_actions": {
+              "1": {
+                "numerator": 47,
+                "denominator": 47,
+                "value": 1.0,
+                "wilson_95_percent_interval": [
+                  0.9244423958360038,
+                  1.0
+                ]
+              },
+              "2": {
+                "numerator": 47,
+                "denominator": 47,
+                "value": 1.0,
+                "wilson_95_percent_interval": [
+                  0.9244423958360038,
+                  1.0
+                ]
+              },
+              "3": {
+                "numerator": 47,
+                "denominator": 47,
+                "value": 1.0,
+                "wilson_95_percent_interval": [
+                  0.9244423958360038,
+                  1.0
+                ]
+              }
+            },
+            "alarm_episodes": 50,
+            "missed_failure_episodes": 0
+          },
+          "first_q_below_0_5": {
+            "failure_recall": {
+              "numerator": 47,
+              "denominator": 47,
+              "value": 1.0,
+              "wilson_95_percent_interval": [
+                0.9244423958360038,
+                1.0
+              ]
+            },
+            "false_alarm_rate": {
+              "numerator": 3,
+              "denominator": 3,
+              "value": 1.0,
+              "wilson_95_percent_interval": [
+                0.4385029682449546,
+                1.0
+              ]
+            },
+            "alarm_precision": {
+              "numerator": 47,
+              "denominator": 50,
+              "value": 0.94,
+              "wilson_95_percent_interval": [
+                0.8378290831116182,
+                0.979385029651026
+              ]
+            },
+            "failure_recall_by_minimum_lead_actions": {
+              "1": {
+                "numerator": 47,
+                "denominator": 47,
+                "value": 1.0,
+                "wilson_95_percent_interval": [
+                  0.9244423958360038,
+                  1.0
+                ]
+              },
+              "2": {
+                "numerator": 47,
+                "denominator": 47,
+                "value": 1.0,
+                "wilson_95_percent_interval": [
+                  0.9244423958360038,
+                  1.0
+                ]
+              },
+              "3": {
+                "numerator": 47,
+                "denominator": 47,
+                "value": 1.0,
+                "wilson_95_percent_interval": [
+                  0.9244423958360038,
+                  1.0
+                ]
+              }
+            },
+            "alarm_episodes": 50,
+            "missed_failure_episodes": 0
+          }
+        }
+      }
+    }
+  },
+  "score_diagnostics": {
+    "miniwob/click-test-2-v1": {
+      "nonconformity_histograms": {
+        "success": {
+          "0.75": 1,
+          "1": 2
+        },
+        "failure": {
+          "0": 83,
+          "0.25": 11,
+          "0.5": 3
+        }
+      },
+      "successful_calibration_episodes": 3,
+      "minimum_p_success_without_ties": 0.25,
+      "minimum_achievable_p_success_at_nonconformity_1": 0.75,
+      "success_can_be_rejected": false,
+      "failure_alarms_impossible_reasons": [
+        "Too few successful calibration episodes to reject success at this alpha.",
+        "Ties at maximum success nonconformity prevent rejecting success at any score."
+      ],
+      "q_histograms_by_split_and_outcome": {
+        "calibration": {
+          "success": {
+            "0": 2,
+            "0.25": 3,
+            "0.5": 1
+          },
+          "failure": {
+            "0": 273,
+            "0.25": 12,
+            "0.5": 4
+          }
+        },
+        "evaluation": {
+          "success": {
+            "0": 3,
+            "0.25": 3,
+            "0.5": 1
+          },
+          "failure": {
+            "0": 134,
+            "0.25": 7
+          }
+        }
+      }
+    }
+  },
+  "elapsed_seconds": {
+    "calibration_episodes": 2790.3949567491654,
+    "evaluation_episodes": 1542.1732407074887,
+    "all_episodes": 4332.568197456654,
+    "all_scoring": 3975.6800604569726
+  },
+  "interpretation_notes": [
+    "Failure means no success within the fixed action budget.",
+    "Uncertain and empty predictions are not counted as correct decisions.",
+    "Check-level statistics are descriptive: repeated checks within an episode are correlated; no check-level confidence intervals are reported.",
+    "Wilson intervals describe episode proportions; they do not establish conformal guarantees or long-horizon performance.",
+    "Lead-action recall includes missed failures in its denominator. Step 0 is before the first action.",
+    "Elapsed time sums recorded episode costs; it excludes startup and report generation."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "runtime": {
+    "versions": {
+      "python": "3.12.13",
+      "early-failure-sandbox": "0.1.0",
+      "miniwob": "1.0",
+      "gymnasium": "0.29.0",
+      "selenium": "4.50.0",
+      "torch": "2.14.1",
+      "transformers": "4.57.6"
+    },
+    "agent": {
+      "model_id": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "requested_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+      "resolved_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+      "device": "mps",
+      "dtype": "float16"
+    },
+    "environment": {
+      "implementation": "miniwob",
+      "browser": "chrome",
+      "browser_version": "154.0.8037.98",
+      "chromedriver_version": "154.0.8037.92",
+      "clock_mode": "action_count"
+    },
+    "scorer": {
+      "implementation": "monte-carlo-v1"
+    }
+  },
+  "protocol_fingerprint": "27f2ce3d59a4b87d17a7de020704907de8ffde2e964a16a3a4dfec7e3adf70b9",
+  "synthetic": false
+}

@@ -1,0 +1,30 @@
+name: Tests and result audit
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
+        with:
+          version: "0.11.7"
+          python-version: "3.12"
+      - name: Install test dependencies
+        run: uv sync --frozen --extra probes
+      - name: Run unit and pipeline tests
+        run: .venv/bin/python -m unittest discover -s tests -v
+      - name: Audit archived experiment
+        run: >-
+          .venv/bin/python results/paper_pipeline_qwen15b/audit_paper_run.py
+          results/paper_pipeline_qwen15b --workspace snapshots/paper_pipeline_qwen15b

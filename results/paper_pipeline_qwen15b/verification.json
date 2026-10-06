@@ -1,0 +1,12 @@
+{
+  "artifact_audit_passed": true,
+  "probe_sha256_before_testing": "804bbefc82d1d4f7036809d6f40e16fa600c7aed99e45ce767a67b32b3dd0e4c",
+  "probe_sha256_after_testing": "804bbefc82d1d4f7036809d6f40e16fa600c7aed99e45ce767a67b32b3dd0e4c",
+  "unit_tests": {
+    "ran": 129,
+    "passed": 126,
+    "optional_browser_tests_skipped": 3
+  },
+  "real_browser_run_episodes": 160,
+  "model_and_browser_process_exit_code": 0
+}

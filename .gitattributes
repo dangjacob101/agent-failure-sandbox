@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Keep archived bytes stable for SHA-256 verification on every platform.
+results/** -text
+snapshots/** -text
+results/**/*.csv whitespace=cr-at-eol

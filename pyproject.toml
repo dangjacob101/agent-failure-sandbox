@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "early-failure-sandbox"
+version = "0.1.0"
+description = "Decoupled Monte Carlo and conformal early failure monitoring for LLM agents"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+hf = ["torch>=2.2,<3", "transformers>=4.45,<5", "accelerate>=0.28,<2"]
+miniwob = ["miniwob==1.0", "gymnasium>=0.29,<2", "selenium>=4.15,<5"]
+probes = ["scikit-learn>=1.3,<2"]
+
+[project.scripts]
+early-failure = "early_failure.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

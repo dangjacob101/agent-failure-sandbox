@@ -1,0 +1,81 @@
+{
+  "purpose": "Restore the paper state-labeling and linear-probing pipeline; evaluate early warnings against actual final outcomes.",
+  "fixed_before_calibration": true,
+  "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+  "task": "miniwob/enter-text-v1",
+  "horizon": 2,
+  "mc_samples": 4,
+  "alpha": 0.1,
+  "label_rule": "paper equations, retain p >= alpha; no temporal maximum",
+  "calibration_episodes": 80,
+  "probe_training_episodes": 40,
+  "evaluation_episodes": 40,
+  "split_seeds": {
+    "calibration": [
+      50000,
+      50079
+    ],
+    "training": [
+      60000,
+      60039
+    ],
+    "evaluation": [
+      70000,
+      70039
+    ]
+  },
+  "layers": [
+    7,
+    14,
+    21,
+    28
+  ],
+  "primary_layer": 14,
+  "probe_decision_threshold": 0.5,
+  "primary_warning_rule": "First failure prediction by the fixed primary layer before a real action; do not stop or steer the actor.",
+  "training_target": "Conformal-derived intermediate-state label, never real final outcome as a fallback.",
+  "metrics": [
+    "held-out conformal-label accuracy and coverage",
+    "training-majority label baseline",
+    "episode failure recall",
+    "false warnings among successful episodes",
+    "warning precision and lead time",
+    "unsupported probe coverage"
+  ],
+  "outcome_baselines": [
+    "always warn before first action",
+    "never warn"
+  ],
+  "development_only": {
+    "seeds": [
+      40000,
+      40019
+    ],
+    "models": [
+      "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+    ],
+    "tasks": [
+      "miniwob/enter-text-v1",
+      "miniwob/click-button-v1"
+    ],
+    "selected_task_actor_outcomes": {
+      "success": 10,
+      "failure": 10
+    },
+    "horizon_reason": "All successful selected-task development trajectories finished in two actions.",
+    "mc_budget_reason": "Four complete continuations per prefix keep this local pilot bounded; an earlier MC8/H4 development timing run was stopped for cost."
+  },
+  "stop_gates": [
+    "No timestep permits both conformal target classes: stop after calibration.",
+    "No probe has at least two training examples per class: stop before final test."
+  ],
+  "limitations": [
+    "Small-model/MiniWoB adaptation, not reproduction of original SFT agent or benchmarks.",
+    "Two-action horizon; does not establish long-horizon warning performance.",
+    "Finite-sample rank labels are per timestep; no simultaneous episode or probe error guarantee.",
+    "Linear separability is association, not causal failure direction.",
+    "Do not tune on evaluation outcomes or substitute final outcomes for ambiguous labels."
+  ]
+}

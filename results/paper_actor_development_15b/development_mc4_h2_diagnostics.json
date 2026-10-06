@@ -1,0 +1,67 @@
+{
+  "development_only": true,
+  "episodes": 4,
+  "samples": 4,
+  "max_steps": 2,
+  "source_actor_max_steps": 4,
+  "successes": 2,
+  "failures": 2,
+  "elapsed_seconds": 100.69509695796296,
+  "by_step": {
+    "0": {
+      "success": {
+        "n": 2,
+        "q": [
+          0.75,
+          0.0
+        ],
+        "zeros": 1,
+        "mean": 0.375,
+        "histogram": {
+          "0.0": 1,
+          "0.75": 1
+        }
+      },
+      "failure": {
+        "n": 2,
+        "q": [
+          0.5,
+          0.0
+        ],
+        "zeros": 1,
+        "mean": 0.25,
+        "histogram": {
+          "0.0": 1,
+          "0.5": 1
+        }
+      }
+    },
+    "1": {
+      "success": {
+        "n": 2,
+        "q": [
+          0.5,
+          0.5
+        ],
+        "zeros": 0,
+        "mean": 0.5,
+        "histogram": {
+          "0.5": 2
+        }
+      },
+      "failure": {
+        "n": 2,
+        "q": [
+          0.0,
+          0.0
+        ],
+        "zeros": 2,
+        "mean": 0.0,
+        "histogram": {
+          "0.0": 2
+        }
+      }
+    }
+  },
+  "generated_actions": 48
+}

@@ -1,0 +1,28 @@
+{
+  "purpose": "Test whether pre-action conformal predictions match final bounded-horizon task outcomes.",
+  "design_fixed_before_collection": true,
+  "calibration_episodes": 100,
+  "evaluation_episodes": 50,
+  "task": "miniwob/click-test-2-v1",
+  "max_actions": 3,
+  "model_and_prompt": "Same Qwen 0.5B checkpoint and unchanged MiniWoB prompt as earlier smoke runs.",
+  "change_from_smoke": "Four independent continuation samples per checkpoint; fresh prospective seeds.",
+  "primary_rule": "Only singleton failure is a failure alarm; uncertainty is not counted as a correct prediction.",
+  "primary_metrics": [
+    "failure recall",
+    "false alarm rate among successful episodes",
+    "alarm precision",
+    "lead actions",
+    "uncertain fraction"
+  ],
+  "fixed_descriptive_baselines": [
+    "always predict failure before the first action",
+    "alarm at first checkpoint with q < 0.5"
+  ],
+  "limitations": [
+    "One microtask template, not distinct benchmark task families.",
+    "Three-action horizon, not a long-horizon test.",
+    "Sample size may be inadequate within rare outcome classes.",
+    "Do not tune model, prompt, alpha, or score settings after inspecting evaluation results."
+  ]
+}

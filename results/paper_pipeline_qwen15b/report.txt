@@ -1,0 +1,22 @@
+Paper-pipeline sandbox
+Status: complete
+Labeling: paper_equations; alpha=0.1
+Calibration, probe training, and evaluation use separate task seeds.
+calibration: 29 success, 51 failure (80 runs).
+training: 15 success, 25 failure (40 runs).
+evaluation: 15 success, 25 failure (40 runs).
+Trained probes: 4
+Conformal-label accuracy: 0.9625 on 80 labeled state/layer pairs.
+Conformal label coverage: 0.2564102564102564.
+Repeated layers/checks are correlated; pooled probe accuracy is descriptive.
+Primary layer: 14 (fixed before testing).
+Failures warned about: 17/25.
+Successful runs wrongly warned about: 0/15.
+Runs with a supported probe prediction: 38/40.
+Median warning lead among detected failures: 1 actions.
+Per-layer results, baselines, and episode-level confidence intervals are in summary.json.
+Probe targets are conformal state labels, not real final task outcomes.
+Final-outcome warning performance is evaluated separately.
+A linear direction is predictive association, not evidence of a causal failure mechanism.
+Paper stepwise guarantees do not imply a bound on any probe alarm across an entire episode.
+This is a small-model/MiniWoB adaptation; the actor is not the paper's fine-tuned Llama agent.

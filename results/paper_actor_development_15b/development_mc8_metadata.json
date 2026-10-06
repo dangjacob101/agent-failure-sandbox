@@ -1,0 +1,37 @@
+{
+  "development_only": true,
+  "samples": 8,
+  "max_steps": 4,
+  "temperature": 0.7,
+  "master_seed": 42,
+  "actor_metadata": {
+    "agent": {
+      "model_id": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "requested_revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+      "resolved_revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+      "device": "mps",
+      "dtype": "float16"
+    },
+    "prompt_sha256": "168b20a862b93a407997912c950c90fc60b9bd72cd7724649067e96d14a4ad2a",
+    "versions": {
+      "torch": "2.14.1",
+      "transformers": "4.57.6",
+      "miniwob": "1.0",
+      "selenium": "4.50.0"
+    },
+    "development_only": true
+  },
+  "task_seeds": [
+    40000,
+    40001,
+    40002,
+    40003,
+    40004,
+    40005,
+    40006,
+    40007,
+    40008,
+    40009
+  ],
+  "prefix_input": "Recorded actions/observations strictly before the checkpoint; no actual future or outcome."
+}

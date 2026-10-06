@@ -1,0 +1,379 @@
+{
+  "passed": true,
+  "run_status": "complete",
+  "completed_stages": [
+    "calibration",
+    "training",
+    "evaluation"
+  ],
+  "outcomes": {
+    "calibration": {
+      "episodes": 80,
+      "success": 29,
+      "failure": 51
+    },
+    "training": {
+      "episodes": 40,
+      "success": 15,
+      "failure": 25
+    },
+    "evaluation": {
+      "episodes": 40,
+      "success": 15,
+      "failure": 25
+    }
+  },
+  "viable_steps": [
+    {
+      "env_id": "miniwob/enter-text-v1",
+      "step": 1
+    }
+  ],
+  "trained_probes": 4,
+  "checked_source_files": 18,
+  "check_counts": {
+    "final_status": 1,
+    "no_error_artifact": 1,
+    "planned_H2_MC4": 1,
+    "full_MC_horizon": 1,
+    "paper_equation_mode": 1,
+    "protocol": 9,
+    "summary_settings": 1,
+    "protocol_fingerprint": 1,
+    "metadata_probe_config": 1,
+    "runtime_actor": 5,
+    "source_file_manifest": 1,
+    "source_hash": 18,
+    "disjoint_split_seeds": 1,
+    "metadata_manifest": 3,
+    "protocol_count": 3,
+    "protocol_seed_bounds": 3,
+    "contiguous_planned_seeds": 3,
+    "complete_split": 3,
+    "unique_episodes": 3,
+    "turn_count": 160,
+    "initial_nonterminal": 160,
+    "actual_system_prompt": 160,
+    "preterminal_checks": 160,
+    "turn_steps": 160,
+    "no_actions_after_terminal": 314,
+    "MC_samples_and_censoring": 314,
+    "MC_success_count": 314,
+    "MC_q": 314,
+    "MC_full_remaining": 314,
+    "MC_generated_action_bound": 314,
+    "real_outcome": 160,
+    "real_outcome_reason": 160,
+    "no_early_stop": 160,
+    "summary_outcomes": 3,
+    "completed_stage_manifest": 1,
+    "actual_episode_split_overlap": 3,
+    "recomputed_step_calibration": 1,
+    "calibration_settings": 1,
+    "calibration_diagnostics": 4,
+    "viable_steps": 1,
+    "complete_feature_records": 2,
+    "summary_state_labels": 2,
+    "feature_prefix_identity": 628,
+    "conformal_target": 628,
+    "conformal_rank": 2512,
+    "finite_features": 628,
+    "same_prompt_same_features": 272,
+    "probe_settings": 1,
+    "probe_target_and_threshold": 1,
+    "probe_training_manifest": 1,
+    "probe_group_manifest": 1,
+    "probe_training_group": 56,
+    "probe_feature_width": 8,
+    "finite_probe_weights": 4,
+    "trained_probe_count": 1,
+    "evaluation_feature_width": 152,
+    "recomputed_numeric_weight_predictions": 1,
+    "recomputed_probe_label_summary": 1,
+    "fixed_primary_layer": 1,
+    "recomputed_outcomes_layer": 4,
+    "recomputed_primary_outcome_summary": 1,
+    "outcome_baseline": 2,
+    "completed_all_stages": 1
+  },
+  "feature_records": {
+    "training": 316,
+    "evaluation": 312
+  },
+  "label_counts": {
+    "training": {
+      "all_states": {
+        "uncertain": 62,
+        "failure": 13,
+        "success": 4
+      },
+      "by_environment_step": {
+        "miniwob/enter-text-v1::step=0": {
+          "uncertain": 40
+        },
+        "miniwob/enter-text-v1::step=1": {
+          "failure": 13,
+          "uncertain": 22,
+          "success": 4
+        }
+      }
+    },
+    "evaluation": {
+      "all_states": {
+        "uncertain": 58,
+        "failure": 18,
+        "success": 2
+      },
+      "by_environment_step": {
+        "miniwob/enter-text-v1::step=0": {
+          "uncertain": 40
+        },
+        "miniwob/enter-text-v1::step=1": {
+          "uncertain": 18,
+          "failure": 18,
+          "success": 2
+        }
+      }
+    }
+  },
+  "prompt_diversity": {
+    "calibration": {
+      "checks": 157,
+      "unique_prompt_hashes": 96,
+      "unique_initial_prompt_hashes": 41
+    },
+    "training": {
+      "checks": 79,
+      "unique_prompt_hashes": 63,
+      "unique_initial_prompt_hashes": 29
+    },
+    "evaluation": {
+      "checks": 78,
+      "unique_prompt_hashes": 57,
+      "unique_initial_prompt_hashes": 26
+    }
+  },
+  "cross_split_prompt_overlap": {
+    "calibration_vs_training": {
+      "shared_unique_prefix_hashes": 50,
+      "right_checks_sharing_left_prompt": 63
+    },
+    "calibration_vs_evaluation": {
+      "shared_unique_prefix_hashes": 41,
+      "right_checks_sharing_left_prompt": 52
+    },
+    "training_vs_evaluation": {
+      "shared_unique_prefix_hashes": 31,
+      "right_checks_sharing_left_prompt": 43
+    }
+  },
+  "primary_outcome_metrics": {
+    "episodes": 40,
+    "successful_episodes": 15,
+    "failed_episodes": 25,
+    "checks": 78,
+    "supported_checks": 38,
+    "unsupported_checks": 40,
+    "supported_check_fraction": 0.48717948717948717,
+    "supported_episodes": 38,
+    "unsupported_episodes": 2,
+    "episode_prediction_coverage": 0.95,
+    "has_supported_predictions": true,
+    "unsupported_episode_ids": [
+      "miniwob/enter-text-v1::seed=70005",
+      "miniwob/enter-text-v1::seed=70037"
+    ],
+    "alarm_episodes": 17,
+    "detected_failure_episodes": 17,
+    "missed_failure_episodes": 8,
+    "false_alarm_episodes": 0,
+    "failure_recall": 0.68,
+    "episode_false_alarm_rate": 0.0,
+    "alarm_precision": 1.0,
+    "failure_recall_by_minimum_lead_steps": {
+      "1": 0.68,
+      "2": 0.0,
+      "3": 0.0
+    },
+    "detected_failures_by_minimum_lead_steps": {
+      "1": 17,
+      "2": 0,
+      "3": 0
+    },
+    "median_failure_lead_steps": 1,
+    "confidence_intervals_95": {
+      "failure_recall": {
+        "numerator": 17,
+        "denominator": 25,
+        "lower": 0.48410269273102247,
+        "upper": 0.8279480969309202
+      },
+      "episode_false_alarm_rate": {
+        "numerator": 0,
+        "denominator": 15,
+        "lower": 0.0,
+        "upper": 0.20388330103584862
+      },
+      "alarm_precision": {
+        "numerator": 17,
+        "denominator": 17,
+        "lower": 0.8156818649911483,
+        "upper": 1.0
+      },
+      "episode_prediction_coverage": {
+        "numerator": 38,
+        "denominator": 40,
+        "lower": 0.8349612263085903,
+        "upper": 0.9861793326138516
+      },
+      "failure_recall_by_minimum_lead_steps": {
+        "1": {
+          "numerator": 17,
+          "denominator": 25,
+          "lower": 0.48410269273102247,
+          "upper": 0.8279480969309202
+        },
+        "2": {
+          "numerator": 0,
+          "denominator": 25,
+          "lower": 1.3877787807814457e-17,
+          "upper": 0.13319225093904846
+        },
+        "3": {
+          "numerator": 0,
+          "denominator": 25,
+          "lower": 1.3877787807814457e-17,
+          "upper": 0.13319225093904846
+        }
+      }
+    },
+    "alarms": [
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70002",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70006",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70007",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70009",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70011",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70012",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70013",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70014",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70016",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70020",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70022",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70024",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70025",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70027",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70028",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70034",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      },
+      {
+        "episode_id": "miniwob/enter-text-v1::seed=70038",
+        "env_id": "miniwob/enter-text-v1",
+        "success": false,
+        "first_alarm_step": 1,
+        "lead_steps": 1
+      }
+    ]
+  },
+  "issues": [],
+  "limitations": [
+    "Activations and optimizer fitting are not rerun; saved prefixes, numeric weights, and derived metrics are checked.",
+    "Distinct task seeds do not guarantee distinct prompt text; overlap is quantified separately.",
+    "Passing an artifact audit establishes internal consistency, not predictive quality or long-horizon validity."
+  ],
+  "run_directory": "results/paper_pipeline_qwen15b"
+}

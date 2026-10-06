@@ -1,0 +1,17 @@
+{
+  "agent": {
+    "model_id": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+    "requested_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+    "resolved_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+    "device": "mps",
+    "dtype": "float16"
+  },
+  "prompt_sha256": "168b20a862b93a407997912c950c90fc60b9bd72cd7724649067e96d14a4ad2a",
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "miniwob": "1.0",
+    "selenium": "4.50.0"
+  },
+  "development_only": true
+}

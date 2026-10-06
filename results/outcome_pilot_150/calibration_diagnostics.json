@@ -1,0 +1,24 @@
+{
+  "fitted": true,
+  "method": "trajectory_max_class_conditional",
+  "alpha": 0.1,
+  "calibration_unit": "completed_episode",
+  "rejection_rule": "p <= alpha",
+  "environments": {
+    "miniwob/click-test-2-v1": {
+      "n_episodes": 100,
+      "success": {
+        "n": 3,
+        "min_p": 0.25,
+        "supported": true,
+        "can_reject_at_alpha": false
+      },
+      "failure": {
+        "n": 97,
+        "min_p": 0.01020408163265306,
+        "supported": true,
+        "can_reject_at_alpha": true
+      }
+    }
+  }
+}

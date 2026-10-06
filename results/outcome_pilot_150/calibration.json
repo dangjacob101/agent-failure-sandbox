@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "protocol": {
+    "agent_backend": "hf",
+    "agent_tag": null,
+    "check_every": 1,
+    "device": "mps",
+    "dtype": "float16",
+    "env_ids": [
+      "miniwob/click-test-2-v1"
+    ],
+    "env_kwargs": {},
+    "environment": "miniwob",
+    "environment_tag": null,
+    "max_context_tokens": 8192,
+    "max_new_tokens": 48,
+    "max_steps": 3,
+    "mc_max_steps": null,
+    "mc_samples": 4,
+    "model_id": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+    "model_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+    "scorer_tag": null,
+    "seed": 42,
+    "temperature": 0.7,
+    "version": 2
+  },
+  "runtime": {
+    "versions": {
+      "python": "3.12.13",
+      "early-failure-sandbox": "0.1.0",
+      "miniwob": "1.0",
+      "gymnasium": "0.29.0",
+      "selenium": "4.50.0",
+      "torch": "2.14.1",
+      "transformers": "4.57.6"
+    },
+    "agent": {
+      "model_id": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "requested_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+      "resolved_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+      "device": "mps",
+      "dtype": "float16"
+    },
+    "environment": {
+      "implementation": "miniwob",
+      "browser": "chrome",
+      "browser_version": "154.0.8037.98",
+      "chromedriver_version": "154.0.8037.92",
+      "clock_mode": "action_count"
+    },
+    "scorer": {
+      "implementation": "monte-carlo-v1"
+    }
+  },
+  "protocol_fingerprint": "27f2ce3d59a4b87d17a7de020704907de8ffde2e964a16a3a4dfec7e3adf70b9",
+  "calibration_tasks": [
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10000
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10001
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10002
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10003
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10004
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10005
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10006
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10007
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10008
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10009
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10010
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10011
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10012
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10013
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10014
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10015
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10016
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10017
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10018
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10019
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10020
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10021
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10022
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10023
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10024
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10025
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10026
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10027
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10028
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10029
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10030
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10031
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10032
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10033
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10034
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10035
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10036
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10037
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10038
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10039
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10040
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10041
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10042
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10043
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10044
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10045
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10046
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10047
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10048
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10049
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10050
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10051
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10052
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10053
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10054
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10055
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10056
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10057
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10058
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10059
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10060
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10061
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10062
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10063
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10064
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10065
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10066
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10067
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10068
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10069
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10070
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10071
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10072
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10073
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10074
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10075
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10076
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10077
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10078
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10079
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10080
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10081
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10082
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10083
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10084
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10085
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10086
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10087
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10088
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10089
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10090
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10091
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10092
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10093
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10094
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10095
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10096
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10097
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10098
+    },
+    {
+      "env_id": "miniwob/click-test-2-v1",
+      "seed": 10099
+    }
+  ],
+  "monitor": {
+    "schema_version": 1,
+    "method": "trajectory_max_class_conditional",
+    "alpha": 0.1,
+    "calibration_scores": {
+      "miniwob/click-test-2-v1": {
+        "success": [
+          0.75,
+          1.0,
+          1.0
+        ],
+        "failure": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    }
+  }
+}

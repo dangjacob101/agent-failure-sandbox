@@ -1,0 +1,18 @@
+{
+  "base_commit": "0b041ccdd2e5de66b6300cbb14d20f06f226d295",
+  "source_sha256": {
+    "src/early_failure/__init__.py": "89a7a22b7d0510ba70560edf34c253cfa948ba80956d19d1facc90e409781033",
+    "src/early_failure/__main__.py": "e82dabe421d0ea8f5aef51bf81568aede65ea3dce1d286f8465ea2d33a1e0b73",
+    "src/early_failure/config.py": "e6a9813733c3f94f595b35615a0a3400487d359ff36f359fad862f071c263144",
+    "src/early_failure/conformal.py": "e07d0f643b0950594dc4dcf4a2fd2c205e4652df10aa1bee8697315e5ba4a932",
+    "src/early_failure/experiment.py": "cbe6ad0823a58b1011b91b9056f2c0ec34d0b3484f086142525ffe750797d06c",
+    "src/early_failure/history.py": "b5cbfb15fc915acf469ea07de01a63566c6affdf1a0cca63c4e84229f5c8b32a",
+    "src/early_failure/metrics.py": "728442fa9ea5c3d2e65e210e19afac4a0cd8f0785243d1a84f2d614db1158d29",
+    "src/early_failure/miniwob.py": "7ad0e2856112d1c7a7cb558076c012edf018738033dd59d644a3d5343000e96b",
+    "src/early_failure/models.py": "63845394a89ecd3b5a70826362cf2755063b9893cd99d4e25544552e9ce6ae2c",
+    "src/early_failure/rollouts.py": "a1b8b66f6e58f59d383ac4475312922872002a01ec2f5085428e863bc131168f",
+    "src/early_failure/scoring.py": "ecde23a7bdc35052fe9724e0c83b8cfe9fe87c327279679422d13cd1a2244fdb",
+    "src/early_failure/synthetic.py": "0df0ad17b90b3f121f9eec73ff587bc9fd148b461c81c62db817a1b86ca54764",
+    "src/early_failure/types.py": "8bfddd3d3739e7b976a5e0e4e8853d54e7608097d9fcf79f607f4b9f4b611b69"
+  }
+}

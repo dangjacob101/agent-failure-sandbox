@@ -1,0 +1,10 @@
+{
+  "classification": "requested_development_budget_stop",
+  "initially_requested_episodes": 10,
+  "completed_episodes": 1,
+  "completed_prefixes": 7,
+  "interruption": "SIGINT after seven completed prefixes; partial continuation work excluded.",
+  "reason": "Replaced H4/MC8 with prospectively fixed first four development episodes at H2/MC4 to bound runtime.",
+  "actor_artifacts_unchanged": true,
+  "partial_episode_artifact": "development_mc8_partial_episode.json"
+}

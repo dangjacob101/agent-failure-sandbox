@@ -1,0 +1,72 @@
+{
+  "fitted": true,
+  "method": "stepwise_final_outcome_calibrated_labels",
+  "mode": "paper_equations",
+  "alpha": 0.1,
+  "calibration_group_label": "real_final_outcome",
+  "calibration_unit": "one_check_per_episode_at_each_timestep",
+  "retention_rule": "p >= alpha",
+  "formal_coverage_claim": "fixed environment/timestep/class under exchangeability; no simultaneous-time guarantee",
+  "environments": {
+    "miniwob/enter-text-v1": {
+      "0": {
+        "support": {
+          "success": 29,
+          "failure": 51
+        },
+        "both_classes_supported": true,
+        "classes": {
+          "success": {
+            "n": 29,
+            "supported": true,
+            "min_rank_p_without_ties": 0.03333333333333333,
+            "min_achievable_p_at_nonconformity_1": 0.16666666666666666,
+            "maximal_nonconformity_ties": 4,
+            "can_reject_at_alpha": false
+          },
+          "failure": {
+            "n": 51,
+            "supported": true,
+            "min_rank_p_without_ties": 0.019230769230769232,
+            "min_achievable_p_at_nonconformity_1": 0.057692307692307696,
+            "maximal_nonconformity_ties": 2,
+            "can_reject_at_alpha": true
+          }
+        },
+        "reasons": [
+          "Ties keep the minimum success p-value at or above alpha; failure targets are impossible."
+        ],
+        "failure_target_possible": false,
+        "success_target_possible": true
+      },
+      "1": {
+        "support": {
+          "success": 29,
+          "failure": 48
+        },
+        "both_classes_supported": true,
+        "classes": {
+          "success": {
+            "n": 29,
+            "supported": true,
+            "min_rank_p_without_ties": 0.03333333333333333,
+            "min_achievable_p_at_nonconformity_1": 0.03333333333333333,
+            "maximal_nonconformity_ties": 0,
+            "can_reject_at_alpha": true
+          },
+          "failure": {
+            "n": 48,
+            "supported": true,
+            "min_rank_p_without_ties": 0.02040816326530612,
+            "min_achievable_p_at_nonconformity_1": 0.061224489795918366,
+            "maximal_nonconformity_ties": 2,
+            "can_reject_at_alpha": true
+          }
+        },
+        "reasons": [],
+        "failure_target_possible": true,
+        "success_target_possible": true
+      }
+    }
+  }
+}
